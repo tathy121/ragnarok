@@ -1,0 +1,43 @@
+Nos dois :
+1 - testar todos os eventos pra ver se estão funcionando corretamente
+
+
+Kastiel:
+1 - traduzir skill
+2 - traduzir iteninfo
+3 - traduzir outras coisas
+4 - definir lvl vip e seus comandos
+5 - rodar as sql ao invés do emulador
+6 - ativar alguns npc que estão inativos por causa de algum erro. 
+7 - criar as sql de cash
+8 - 
+
+
+Wemerson :
+1 - definir os itens iniciais ( vai ner no mestre das classes )
+2 - criar aquele prêmio diário 
+3 - traduzir principais npc (job master, reset, platinum, rentail...)
+4 - add o cash shop    ok
+5 - definir level de GM /  level de outros GM/CM etc...
+6 - arrumar o gold room
+7 - criar as sql de itens novos
+8 - terminar sistema de mineracao
+9 - add os itens custom      ok
+
+=============================================
+procurar e adicionar mapa no death arena
+adicionar zeny na mestre das classes
+
+======   Itens que estão com erros =======
+//REPLACE INTO item_db_re VALUES(40700,'Adaga_Suprema','Adaga Suprema','5',20,NULL,'0',120:90,NULL,1,4,0x028F5EEF,63,2,2,3,100,1,3567,'  bonus bStr,15; bonus bAgi,8; bonus2 bAddRace,RC_DemiHuman,30; bonus2 bAddRace,RC_Player,30; bonus bUnbreakableWeapon,0; autobonus \"{ bonus bDefRatioAtkClass,Class_All; }\",10,6000,BF_WEAPON,\"{ specialeffect2 EF_HASTEUP; }\"; if(Class==Job_Ninja||Class==Job_Rogue||Class==Job_Stalker) bonus bMatkRate,15;  ',NULL,NULL);
+
+//REPLACE INTO item_db_re VALUES(40702,'Cajado_Supremo','Cajado Supremo','5',20,NULL,'0',70:100,NULL,1,4,0x00010204,63,2,2,3,100,1,3569,'  bonus bInt,3; bonus bDex,3; bonus bMatkRate,15; bonus2 bMagicAddRace,RC_DemiHuman,15; bonus2 bMagicAddRace,RC_Player,15; bonus3 bAddEff,Eff_Stun,500,ATF_MAGIC; bonus bUnbreakableWeapon,0;  ',NULL,NULL);
+
+
+//REPLACE INTO item_db_re VALUES(40709,'Livro_Magico_Supremo','Livro Magico Supremo','5',20,NULL,'0',90:125,NULL,1,0,0x00410100,63,2,2,3,80,1,3576,'  bonus bStr,2; bonus bInt,1; bonus bMatkRate,15; bonus2 bIgnoreMdefRaceRate,RC_DemiHuman,25; bonus2 bIgnoreMdefRaceRate,RC_Player,25; bonus bUnbreakableWeapon,0;  ',NULL,NULL);
+
+
+//REPLACE INTO item_db_re VALUES(40710,'Livro_Supremo','Livro Supremo','5',20,NULL,'0',90:115,NULL,1,0,0x00410100,63,2,2,4,80,1,3577,'  bonus bMatkRate,15; bonus2 bAddRace,RC_DemiHuman,80; bonus2 bAddRace,RC_Player,80; bonus2 bIgnoreDefRaceRate,RC_DemiHuman,25; bonus2 bIgnoreDefRaceRate,RC_Player,25; bonus bUnbreakableWeapon,0; .@r = getrefine(); if(.@r>5) { bonus2 bAddRace,RC_DemiHuman,pow(min(14,.@r)-4,2); bonus2 bAddRace,RC_Player,pow(min(14,.@r)-4,2); bonus2 bIgnoreDefRaceRate,RC_DemiHuman,5; bonus2 bIgnoreDefRaceRate,RC_Player,5; } if(.@r>8) autobonus \"{ bonus bBaseAtk,200; }\",30,3000,BF_WEAPON,\"{ specialeffect2 EF_BASH3D; }\";  ',NULL,NULL);
+
+
+//REPLACE INTO item_db_re VALUES(40717,'Shuriken_Suprema','Shuriken Suprema','5',20,NULL,'0',55:90,NULL,1,0,0x02000000,63,2,34,4,80,1,3584,'  bonus2 bAddRace,RC_DemiHuman,95; bonus2 bAddRace,RC_Player,95; bonus2 bIgnoreDefRaceRate,RC_DemiHuman,20; bonus2 bIgnoreDefRaceRate,RC_Player,20; bonus bMatkRate,15; autobonus \"{ bonus2 bSkillAtk,\\\"NJ_HUUMA\\\",100; bonus2 bSkillAtk,\\\"NJ_ISSEN\\\",100; }\",50,10000; bonus bUnbreakableWeapon,0; .@r = getrefine(); if(.@r>5) { bonus2 bAddRace,RC_DemiHuman,pow(min(14,.@r)-3,2); bonus2 bAddRace,RC_Player,pow(min(14,.@r)-3,2); bonus2 bIgnoreDefRaceRate,RC_DemiHuman,5; bonus2 bIgnoreDefRaceRate,RC_Player,5; } if(.@r>8) { bonus5 bAutoSpellOnSkill,\"NJ_ISSEN\",\"AL_HEAL\",10,1000,1; bonus4 bAutoSpellOnSkill,\"NJ_HUUMA\",\"NPC_CRITICALWOUND\",2,200; }  ',NULL,NULL);
