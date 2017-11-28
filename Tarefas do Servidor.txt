@@ -41,3 +41,7 @@ adicionar zeny na mestre das classes
 
 
 //REPLACE INTO item_db_re VALUES(40717,'Shuriken_Suprema','Shuriken Suprema','5',20,NULL,'0',55:90,NULL,1,0,0x02000000,63,2,34,4,80,1,3584,'  bonus2 bAddRace,RC_DemiHuman,95; bonus2 bAddRace,RC_Player,95; bonus2 bIgnoreDefRaceRate,RC_DemiHuman,20; bonus2 bIgnoreDefRaceRate,RC_Player,20; bonus bMatkRate,15; autobonus \"{ bonus2 bSkillAtk,\\\"NJ_HUUMA\\\",100; bonus2 bSkillAtk,\\\"NJ_ISSEN\\\",100; }\",50,10000; bonus bUnbreakableWeapon,0; .@r = getrefine(); if(.@r>5) { bonus2 bAddRace,RC_DemiHuman,pow(min(14,.@r)-3,2); bonus2 bAddRace,RC_Player,pow(min(14,.@r)-3,2); bonus2 bIgnoreDefRaceRate,RC_DemiHuman,5; bonus2 bIgnoreDefRaceRate,RC_Player,5; } if(.@r>8) { bonus5 bAutoSpellOnSkill,\"NJ_ISSEN\",\"AL_HEAL\",10,1000,1; bonus4 bAutoSpellOnSkill,\"NJ_HUUMA\",\"NPC_CRITICALWOUND\",2,200; }  ',NULL,NULL);
+
+
+
+* ARRUMAR TEXTURE E COLECTIONN DO ITEM 40733
