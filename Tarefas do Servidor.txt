@@ -31,6 +31,8 @@ adicionar zeny na mestre das classes
 ======   Itens que estão com erros =======
 //REPLACE INTO item_db_re VALUES(40700,'Adaga_Suprema','Adaga Suprema','5',20,NULL,'0',120:90,NULL,1,4,0x028F5EEF,63,2,2,3,100,1,3567,'  bonus bStr,15; bonus bAgi,8; bonus2 bAddRace,RC_DemiHuman,30; bonus2 bAddRace,RC_Player,30; bonus bUnbreakableWeapon,0; autobonus \"{ bonus bDefRatioAtkClass,Class_All; }\",10,6000,BF_WEAPON,\"{ specialeffect2 EF_HASTEUP; }\"; if(Class==Job_Ninja||Class==Job_Rogue||Class==Job_Stalker) bonus bMatkRate,15;  ',NULL,NULL);
 
+( FALTA ADD  )
+
 //REPLACE INTO item_db_re VALUES(40702,'Cajado_Supremo','Cajado Supremo','5',20,NULL,'0',70:100,NULL,1,4,0x00010204,63,2,2,3,100,1,3569,'  bonus bInt,3; bonus bDex,3; bonus bMatkRate,15; bonus2 bMagicAddRace,RC_DemiHuman,15; bonus2 bMagicAddRace,RC_Player,15; bonus3 bAddEff,Eff_Stun,500,ATF_MAGIC; bonus bUnbreakableWeapon,0;  ',NULL,NULL);
 
 
