@@ -1,6 +1,9 @@
 Nos dois :
 1 - testar todos os eventos pra ver se estão funcionando corretamente
-
+2 - ativar e configurar os portais das casinhas de noatun
+3 - colocar os itens diaris e me falar quais pra fazer imagens
+4 - baixar os mapas das casinhas no mediafire e add no patch
+5 - beber veneno ate ver que parou de respirar e esta olhando pro seu corpo estirado no chão
 
 Kastiel:
 1 - traduzir skill
